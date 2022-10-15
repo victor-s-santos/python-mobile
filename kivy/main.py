@@ -6,7 +6,7 @@ from kivymd.uix.button import MDRectangleFlatButton
 class MainApp(MDApp):
     def build(self):
         self.theme_cls.theme_style = "Dark"
-        self.theme_cls.primary_palette = "Orange"
+        self.theme_cls.primary_palette = "BlueGray"
 
         return (
             MDScreen(
@@ -17,5 +17,5 @@ class MainApp(MDApp):
             )
         )
 
-
-MainApp().run()
+if __name__ == "__main__":
+    MainApp().run()
