@@ -18,3 +18,7 @@ If you desire to use table values from mongodb instead of table.py constant valu
 * 1. Build the mongodb container:
     - 1.1 docker-compose up --build
         - Only in the first time the flag --build is necessary, after the build docker-compose up is going to be enough.
+
+## Images
+
+![plot](./images/my_dogs_table.png)
