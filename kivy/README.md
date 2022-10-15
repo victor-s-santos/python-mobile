@@ -11,3 +11,10 @@
 
 - 3. Run the project:
         - 3.1 python main.py
+
+## Database
+If you desire to use table values from mongodb instead of table.py constant values, you should up the mongodb container as follow:
+
+* 1. Build the mongodb container:
+    - 1.1 docker-compose up --build
+        - Only in the first time the flag --build is necessary, after the build docker-compose up is going to be enough.
